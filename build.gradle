@@ -54,21 +54,9 @@ tasks.withType(Test) {
 }
 
 
-task regression_test(type: Test) {
+task positive_test(type: Test) {
     useJUnitPlatform {
-        includeTags("regression")
-    }
-}
-
-task allFields_test(type: Test) {
-    useJUnitPlatform {
-        includeTags("allFields")
-    }
-}
-
-task minFields_test(type: Test) {
-    useJUnitPlatform {
-        includeTags("minFields")
+        includeTags("positive")
     }
 }
 
