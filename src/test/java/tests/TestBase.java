@@ -18,7 +18,7 @@ public class TestBase {
     static void beforAll() {
         Configuration.baseUrl = System.getProperty("baseUrl", "https://www.aerticket.de/");
         Configuration.browser = System.getProperty("browser", "chrome");
-        Configuration.browserVersion = System.getProperty("browserVersion", "110.0");
+        Configuration.browserVersion = System.getProperty("browserVersion", "100.0");
         Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
         Configuration.remote = System.getProperty("wdHost", "https://user1:1234@selenoid.autotests.cloud/wd/hub");
         Configuration.pageLoadStrategy = "eager";
