@@ -42,7 +42,7 @@ public class Tests extends TestBase {
             mainPage.clickEnLangButton();
         });
 
-        step("Check the text on the banner in English", () -> {
+        step("Checking the text on the banner in English", () -> {
             mainPage.checkBannerHeadline("Professional to professional airline tickets");
         });
 
@@ -76,14 +76,14 @@ public class Tests extends TestBase {
             open("de/jobs-und-ausbildung");
         });
 
-        step("Check the headline \"Jobs und Ausbildung\" page", () -> {
+        step("Checking the headline \"Jobs und Ausbildung\" page", () -> {
             jobsUndAusbildungPage.checkHeadline(headlineJobUndAusbildung);
         });
     }
 
     @Test
     @Tag("positive")
-    @DisplayName("Check moving from \"Presse\" to main page when clicking on the logo in header")
+    @DisplayName("Checking moving from \"Presse\" to main page when clicking on the logo in header")
     void moveFromPresseToMainTest() {
 
         step("Open \"Presse\" page", () -> {
@@ -94,7 +94,7 @@ public class Tests extends TestBase {
             headerComponent.clickOnLogo();
         });
 
-        step("Check headline in main page", () -> {
+        step("Checking headline in main page", () -> {
             mainPage.checkBannerHeadline("Flugtickets von Profis für Profis");
         });
     }
@@ -109,7 +109,7 @@ public class Tests extends TestBase {
             open("de/ueber-uns");
         });
 
-        step("Check headline in \"Über uns\" page", () -> {
+        step("Checking headline in \"Über uns\" page", () -> {
             aboutUsPage.checkBannerHeadline(headlineAboutUs);
         });
 
