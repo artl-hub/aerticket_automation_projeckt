@@ -134,7 +134,7 @@ On the Dashboard in <code>Allure TestOps</code>, you can see statistics on the n
  ---
 
 <a id="jira"></a>
-## <img width="4%" style="vertical-align:middle" title="Jira" src="media/icons/jira.svg"> </a> Integration with <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-1106"> Jira </a>
+## <img width="4%" style="vertical-align:middle" title="Jira" src="media/icons/Jira.svg"> </a> Integration with <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-1106"> Jira </a>
 
 
 Integration of <code>Allure TestOps</code> with <code>Jira</code> is implemented. The task displays which test cases were written as part of the task and the results of their execution.
