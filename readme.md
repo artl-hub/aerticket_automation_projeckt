@@ -15,7 +15,7 @@
 - <a href="#allure"> Integration with Allure TestOps</a>
 - <a href="#jira"> Integration with Jira</a>
 - <a href="#telegram"> Telegram notifications</a>
-- <a href="#video"> Example of test execution using Selenoid</a>
+- <a href="#video"> Video Example of Running Tests in Selenoid</a>
 
 ____
 
@@ -146,9 +146,9 @@ Integration of <code>Allure TestOps</code> with <code>Jira</code> is implemented
 ---
 
 <a id="telegram"></a>
-## <img width="4%" style="vertical-align:middle" title="Telegram" src="media/icons/Telegram.svg"> Telegram notifications are sent using a bot
+## <img width="4%" style="vertical-align:middle" title="Telegram" src="media/icons/Telegram.svg"> Telegram notifications
 
-After the build is completed, the bot created in <code>Telegram</code> automatically processes and sends a message with the test run report to a specifically configured chat.
+After the build is completed, the Telegram bot created in <code>Telegram</code> automatically processes and sends a message with the test run report to a specifically configured chat.
 
 <p align="center">
 <img width="70%" title="Telegram Notification" src="media/screenshots/telegramNotification.png">
