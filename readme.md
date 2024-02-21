@@ -56,14 +56,14 @@ Contents of the Allure report for each test case include:
 <a id="cases"></a>
 ## :male_detective: Test Cases
 
-Automated:
+Automated tests:
 * Checking contact information on the contact page
 * Checking page opening "Jobs und Ausbildung"
 * Checking switching from "DE" to "EN" version
 * Checking the opening of the "Über uns" page
-* Check moving from "Presse" to main page when clicking on the logo in header
+* Checking moving from "Presse" to main page when clicking on the logo in header
 
-Manual:
+Manual test:
 * Checking moving from the main page to the Cockpit page
 
 ---
