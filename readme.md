@@ -116,7 +116,7 @@ After the build is completed, in the <code>Build History</code> section, icons f
 ---
 
 <a id="allure"></a>
-## <img width="4%" style="vertical-align:middle" title="Allure TestOps" src="media/icons/AllureTestOps.svg"> </a> Integration with с <a target="_blank" href="https://allure.autotests.cloud/project/3872/dashboards"> Allure TestOps </a>
+## <img width="4%" style="vertical-align:middle" title="Allure TestOps" src="media/icons/AllureTestOps.svg"> </a> Integration with с <a target="_blank" href="https://allure.autotests.cloud/project/4042/dashboards"> Allure TestOps </a>
 
 
 On the Dashboard in <code>Allure TestOps</code>, you can see statistics on the number of tests: how many of them are added and executed manually, and how many are automated. New tests, as well as the results of the test run, are received through integration with each build execution.
