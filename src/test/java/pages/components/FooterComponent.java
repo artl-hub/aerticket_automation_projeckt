@@ -1,11 +1,7 @@
 package pages.components;
 
 import com.codeborne.selenide.SelenideElement;
-import pages.ContactPage;
-import pages.MainPage;
 
-import static com.codeborne.selenide.Configuration.baseUrl;
-import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
 public class FooterComponent {

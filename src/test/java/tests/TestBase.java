@@ -15,7 +15,7 @@ import java.util.Map;
 public class TestBase {
 
     @BeforeAll
-    static void beforAll() {
+    static void beforeAll() {
         Configuration.baseUrl = System.getProperty("baseUrl", "https://www.aerticket.de/");
         Configuration.browser = System.getProperty("browser", "chrome");
         Configuration.browserVersion = System.getProperty("browserVersion", "100.0");

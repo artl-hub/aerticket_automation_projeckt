@@ -13,13 +13,13 @@ import pages.components.HeaderComponent;
 
 
 import static com.codeborne.selenide.Selenide.open;
-import static data.DataAboutUsPage.headlineAboutUs;
-import static data.DataJobsUndAusbildungPage.headlineJobUndAusbildung;
+import static data.DataAerticket.*;
 import static io.qameta.allure.Allure.step;
 
 
 @Owner("Artem Larichev")
-public class Tests extends TestBase {
+@Tag("positive")
+public class UiTests extends TestBase {
 
     MainPage mainPage = new MainPage();
     FooterComponent footerComponent = new FooterComponent();
@@ -30,7 +30,6 @@ public class Tests extends TestBase {
 
 
     @Test
-    @Tag("positive")
     @DisplayName("Checking switching from \"DE\" to \"EN\" version")
     void switchingFromDeToEnTest() {
 
@@ -49,7 +48,6 @@ public class Tests extends TestBase {
     }
 
     @Test
-    @Tag("positive")
     @DisplayName("Checking contact information on the contact page")
     void checkInfOnContactPageTest() {
 
@@ -68,7 +66,6 @@ public class Tests extends TestBase {
     }
 
     @Test
-    @Tag("positive")
     @DisplayName("Checking page opening \"Jobs und Ausbildung\"")
     void openJobsAusbildungTest() {
 
@@ -77,12 +74,11 @@ public class Tests extends TestBase {
         });
 
         step("Checking the headline \"Jobs und Ausbildung\" page", () -> {
-            jobsUndAusbildungPage.checkHeadline(headlineJobUndAusbildung);
+            jobsUndAusbildungPage.checkHeadline(HEADLINEJOBUNDAUSBILDUNG);
         });
     }
 
     @Test
-    @Tag("positive")
     @DisplayName("Checking moving from \"Presse\" to main page when clicking on the logo in header")
     void moveFromPresseToMainTest() {
 
@@ -101,7 +97,6 @@ public class Tests extends TestBase {
 
 
     @Test
-    @Tag("positive")
     @DisplayName("Checking the opening of the \"Über uns\" page")
     void openAboutAsTest() {
 
@@ -110,7 +105,7 @@ public class Tests extends TestBase {
         });
 
         step("Checking headline in \"Über uns\" page", () -> {
-            aboutUsPage.checkBannerHeadline(headlineAboutUs);
+            aboutUsPage.checkBannerHeadline(HEADLINEABOUTUS);
         });
 
     }

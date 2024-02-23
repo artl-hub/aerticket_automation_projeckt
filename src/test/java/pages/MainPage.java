@@ -1,13 +1,11 @@
 package pages;
 
 
-import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.SelenideElement;
 import tests.TestBase;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Configuration.baseUrl;
-import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
 
